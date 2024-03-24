@@ -5,7 +5,7 @@ from key import KEY_APY_TG, ADMIN_CHAT_ID
 
 #conneсt database
 try:
-    con_string = r'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:\Users\geime\Desktop\vpn2.0\base.accdb;'
+    con_string = r'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=.\base\base.accdb;'
     conn = pyodbc.connect(con_string)
     print("Connected To Database")
 
